@@ -43,3 +43,6 @@ smartQA
 个人觉得第一中方法并不规范，而第二种方式增加里冗余文件，所以尝试找到一种别的更加优雅的方式，如下
 
 在VSCode搜索设置：`python.analysis.extraPaths`，增加项设置为`${workspaceFolder}`
+
+---
+同理，在VSCode中使用Jupyter，要达到同样的搜索package路径的效果，在**设置**中搜索项: `jupyter.notebookFileRoot`，将其对应项添加/修改为`${workspaceFolder}`，**并重启VSCode**即可
