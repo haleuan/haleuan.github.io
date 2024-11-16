@@ -42,7 +42,15 @@ smartQA
 2. 在项目目录下创建`.vscode/launch.json`文件
 个人觉得第一中方法并不规范，而第二种方式增加里冗余文件，所以尝试找到一种别的更加优雅的方式，如下
 
-在VSCode搜索设置：`python.analysis.extraPaths`，增加项设置为`${workspaceFolder}`
+在VSCode搜索设置：`terminal.integrated.env`，在对应系统下增加项设置为`${workspaceFolder}`
 
+并且建议同样修改`python.analysis.extraPaths`项，以达到代码补全的以及编辑器不会警告未找到module的问题
+
+```json
+    # 以OSX为例
+	"terminal.integrated.env.osx": {
+		"PYTHONPATH": "${workspaceFolder}",
+	},
+```
 ---
 同理，在VSCode中使用Jupyter，要达到同样的搜索package路径的效果，在**设置**中搜索项: `jupyter.notebookFileRoot`，将其对应项添加/修改为`${workspaceFolder}`，**并重启VSCode**即可
