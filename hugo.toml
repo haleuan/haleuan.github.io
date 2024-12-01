@@ -75,6 +75,16 @@ enabled = true
 [params.imageProcessing.content]
 enabled = true
 
+[params.comments]
+enabled = true
+provider = "gitalk"
+
+[params.comments.gitalk]
+owner = "arcolaus"
+admin = "arcolaus"
+repo = "https://github.com/Arcolaus/arcolaus.github.io"
+clientID = "Ov23liKcysA24gq1X8Ef"
+clientSecret = "5661b8b6b9575b64e73a62ca3f1174f370ae6653"
 
 [menu]
 main = []
