@@ -8,7 +8,7 @@ categories = [
 ]
 tags = [
 	"Python",
-	"VS Code"
+	"VSCode"
 ]
 
 +++

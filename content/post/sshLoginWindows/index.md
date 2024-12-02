@@ -4,7 +4,16 @@ date = 2024-12-02T15:37:01+08:00
 draft = false
 comments = false
 slug = "SSH连接Windows11"
+categories = [
+    "Workflow"
+]
+tags = [
+	"Windows",
+	"SSH",
+	"VSCode"
+]
 +++
+
 ## 环境描述
 笔者平时有两台设备：
 1. MacBook Pro

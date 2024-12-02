@@ -2,6 +2,7 @@
 title: About
 description: Escaping from the noisy world -- this is my neverland
 date: '2024-06-03'
+comments: false
 aliases:
   - about-us
   - about-hugo
@@ -15,7 +16,9 @@ menu:
             icon: user
 ---
 
-反反复复，等待许久，终于上线
+此博客正在施工
+
+<a href="arco.work@outlook.com">Email</a>
 
 <iframe frameborder="no" border="0" marginwidth="20" marginheight="0" width=100% height=5% src="//music.163.com/outchain/player?type=2&id=20548128&auto=1&height=66"></iframe>
 

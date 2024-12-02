@@ -6,7 +6,8 @@ slug = "macbook-silicon-configuration"
 readingTime = true
 comments = false
 categories = [
-    "折腾"
+    "Workflow",
+    "Tech"
 ]
 tags = [
 	"OSX",
