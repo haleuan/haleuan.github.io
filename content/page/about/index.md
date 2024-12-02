@@ -18,8 +18,6 @@ menu:
 
 此博客正在施工
 
-<a href="arco.work@outlook.com">Email</a>
-
 <iframe frameborder="no" border="0" marginwidth="20" marginheight="0" width=100% height=5% src="//music.163.com/outchain/player?type=2&id=20548128&auto=1&height=66"></iframe>
 
 > **Hangman - Chris Pureka**  
