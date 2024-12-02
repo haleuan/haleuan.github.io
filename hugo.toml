@@ -1,6 +1,6 @@
 baseURL = 'https://arcolaus.github.io'
 languageCode = 'en-us'
-title = 'Laniidae'
+title = 'Arcolaus'
 theme = "hugo-theme-stack"
 
 [params]
@@ -77,14 +77,21 @@ enabled = true
 
 [params.comments]
 enabled = true
-provider = "gitalk"
+provider = "giscus"
 
-[params.comments.gitalk]
-owner = "arcolaus"
-admin = "arcolaus"
-repo = "arcolaus.github.io"
-clientID = "Ov23liKcysA24gq1X8Ef"
-clientSecret = "5661b8b6b9575b64e73a62ca3f1174f370ae6653"
+[params.comments.giscus]
+repo = "Arcolaus/arcolaus.github.io"
+repoID = "R_kgDOMEIjqg"
+category = "Announcements"
+categoryID = "DIC_kwDOMEIjqs4CkzYW"
+mapping = "pathname"
+strict = false
+lightTheme = "noborder_light"
+darkTheme = "noborder_gray"
+reactionsEnabled = 1
+emitMetadata = 0
+inputPosition = "top"
+lang = "zh-CN"
 
 [menu]
 main = []
