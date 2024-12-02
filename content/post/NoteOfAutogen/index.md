@@ -4,6 +4,7 @@ date = 2024-09-04T20:47:24+08:00
 description = "学习AutoGen的一些简单笔记和大致框架"
 draft = false
 math = true
+comments = false
 categories = [
 	"Master Life",
 	"Learning Notes"

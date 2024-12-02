@@ -4,6 +4,7 @@ description = "记录一下MacBook的一些环境配置"
 date = 2024-07-29
 slug = "macbook-silicon-configuration"
 readingTime = true
+comments = false
 categories = [
     "折腾"
 ]
