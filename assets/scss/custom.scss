@@ -4,15 +4,17 @@
 	src: url('/font/Hack-Regular.ttf') format('truetype');
 	/* 可选：添加其他字体属性，如font-weight和font-style */
 }
+
 @font-face {
 	font-family: 'NotoSans';
 	src: url('/font/NotoSansSC-VariableFont_wght.ttf') format('truetype');
 	/* 可选：添加其他字体属性，如font-weight和font-style */
 }
+
 :root {
 	--sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
-	--zh-font-family: "NotoSans","PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
+	--zh-font-family: "PingFang SC", "Microsoft YaHei", "NotoSans", "Hiragino Sans GB", "Droid Sans Fallback";
 
-	--base-font-family: "NotoSans","Lato", var(--sys-font-family), var(--zh-font-family), sans-serif;
+	--base-font-family: "NotoSans", "Lato", var(--sys-font-family), var(--zh-font-family), sans-serif;
 	--code-font-family: "HackRegular";
 }
