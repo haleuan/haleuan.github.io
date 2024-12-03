@@ -3,7 +3,7 @@ title = '碎片'
 description = "评论区作为碎片记录"
 date = 2024-12-01T15:54:41+08:00
 draft = true
-comments = true
+comments = false
 categories = [
     "Fragments"
 ]
