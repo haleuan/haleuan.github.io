@@ -1,25 +1,20 @@
-+++
-title = "Links"
+---
+title: Links
+links:
+  - title: GitHub
+    description: This is my github homepage
+    website: https://github.com/arcolaus
+    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: Stack Theme
+    description: The theme used to create this site
+    website: https://stack.jimmycai.com/
+    image: https://stack.jimmycai.com/logo.png
+menu:
+  main:
+    weight: 4
+    params:
+      icon: link
 
-[[links]]
-title = "GitHub"
-description = "This is my github homepage"
-website = "https://github.com/arcolaus"
-image = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-  
-[[links]]
-title = "Stack Theme"
-description = "This is the theme I used for my website"
-website = "https://stack.jimmycai.com"
-image = "https://stack.jimmycai.com/logo.png"
-
-
-[menu.main]
-weight = 4
-[menu.main.params]
-icon = "link"
-
-comments = false
-+++
-
+comments: false
+---
 Links to be added.
