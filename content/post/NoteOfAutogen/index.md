@@ -7,7 +7,7 @@ math = true
 comments = false
 categories = [
 	"Master Life",
-	"Learning Notes"
+	"Learning"
 ]
 tags = [
 	"LLM",
