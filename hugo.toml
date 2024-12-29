@@ -86,7 +86,6 @@ category = "Announcements"
 categoryID = "DIC_kwDOMEIjqs4CkzYW"
 mapping = "pathname"
 strict = false
-defaultCommentOrder = "newest"
 lightTheme = "noborder_light"
 darkTheme = "noborder_gray"
 reactionsEnabled = 1
