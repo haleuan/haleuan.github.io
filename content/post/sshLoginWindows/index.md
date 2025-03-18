@@ -1,7 +1,7 @@
 +++
 title = 'SSH连接Windows11(终端连接，以及VSCode Remote-SSH连接)'
 date = 2024-12-02T15:37:01+08:00
-draft = false
+draft = true
 comments = false
 slug = "SSH连接Windows11"
 categories = [
