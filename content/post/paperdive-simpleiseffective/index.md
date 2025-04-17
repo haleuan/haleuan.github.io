@@ -3,10 +3,13 @@ title = 'Paper dive | Simple is effective'
 date = 2025-04-17T01:19:16Z
 draft = false
 comments = false
+math = true
 +++
 ## Metadata
 **Title**: [Simple Is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation](https://arxiv.org/abs/2410.20724)
+
 **Venue**: ICLR 2025
+
 **Source Code**: [Github](https://github.com/Graph-COM/SubgraphRAG)
 
 
