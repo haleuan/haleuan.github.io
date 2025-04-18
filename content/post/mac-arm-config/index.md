@@ -5,6 +5,7 @@ date = 2024-07-29
 slug = "macbook-silicon-configuration"
 readingTime = true
 comments = false
+draft = true
 categories = [
     "Workflow",
     "Tech"
