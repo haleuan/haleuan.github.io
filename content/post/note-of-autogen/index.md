@@ -6,8 +6,7 @@ draft = false
 math = true
 comments = false
 categories = [
-	"Master Life",
-	"Learning"
+	"MS Research Journey",
 ]
 tags = [
 	"LLM",

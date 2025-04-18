@@ -57,13 +57,16 @@ params:
         imageWidth: 120
 
 taxonomies:
-    ccategory : "categories"  # 分类目录
+    category : "categories"  # 分类目录
     tag : "tags"  # 标签
 menu:
     main:
         - name: Archive
           url: /archives/
           weight: 1
+        - name: Categories
+          url: /categories/
+          weight: 2
         - name: Tags
           url: /tags/
           weight: 4

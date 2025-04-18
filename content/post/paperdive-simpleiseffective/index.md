@@ -1,9 +1,18 @@
 +++
-title = 'Paper dive | Simple is effective'
+title = 'Paper dive | Simple Is Effective'
 date = 2025-04-17T01:19:16Z
 draft = false
 comments = false
 ShowToc = true
+categories = [
+    "Paper Dive",
+    "MS Research Journey"
+]
+tags = [
+    "RAG",
+    "Retriever",
+    "DeepLearning"
+]
 +++
 ## Metadata
 **Title**: [Simple Is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation](https://arxiv.org/abs/2410.20724)
