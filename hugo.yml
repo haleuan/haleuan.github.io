@@ -56,6 +56,9 @@ params:
         title: ExampleSite
         imageWidth: 120
 
+taxonomies:
+    ccategory : "categories"  # 分类目录
+    tag : "tags"  # 标签
 menu:
     main:
         - name: Archive
