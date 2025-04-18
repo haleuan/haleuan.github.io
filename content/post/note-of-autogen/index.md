@@ -127,7 +127,7 @@ result = agent_with_number.initiate_chat(
     message="I have a number between 1 and 100. Guess it!",
 )
 ```
-在`agent_guess_number`的`system_message`中，限定让其使用二分法(`binary search`)，可使其更快更准确得出答案，这就是RAG的一个例子(*作为ppt汇报例子：RAG原理之一-增强LLM prompt*)
+在`agent_guess_number`的`system_message`中，限定让其使用二分法(`binary search`)，可使其更快更准确得出答案，这就是RAG的一个例子
 
 #### `TERMINATE`
 ```python
