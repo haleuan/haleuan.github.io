@@ -1,12 +1,12 @@
 :root {
-    --main-width: 950px;
+    --main-width: 900px;
     /* 调整为您想要的宽度 */
 }
 
 .main {
-    max-width: 950px !important;
+    max-width: 900px !important;
 }
 
 .post-content {
-    max-width: 950px !important;
+    max-width: 900px !important;
 }

@@ -6,7 +6,7 @@ pageinate: 7
 
 minify:
   disableXML: false
-  minifyOutput: true
+  minifyOutput: false
 
 outputs:
   home:
@@ -66,10 +66,10 @@ params:
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
-taxonomies:
-  archive: "archives" # 归档
-  category: "categories" # 分类目录
-  tag: "tags" # 标签
+# taxonomies:
+#   archive: "archives
+#   category: "categories"
+#   tag: "tags"
 
 menu:
   main:
@@ -79,7 +79,7 @@ menu:
       weight: 10
     - identifier: categories
       name: Categories
-      url: /categories
+      url: /categories/
       weight: 10
     - identifier: tags
       name: Tags
