@@ -79,16 +79,16 @@ menu:
       weight: 10
     - identifier: categories
       name: Categories
-      url: /categories/
-      weight: 10
+      url: categories
+      weight: 20
     - identifier: tags
       name: Tags
       url: /tags
-      weight: 20
+      weight: 30
     - identifier: search
       name: Search
       url: /search
-      weight: 30
+      weight: 40
 
 markup:
   highlight:
