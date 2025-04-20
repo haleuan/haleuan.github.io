@@ -1,0 +1,35 @@
+{{- define "main" }}
+
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+</header>
+
+<div class="post-content">
+    {{- if .Content }}
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+    {{- end }}
+</div>
+
+{{ range .Pages }}
+<article class="post-entry">
+    <header class="entry-header">
+        <h2>{{ .Title }}</h2>
+    </header>
+    <div class="entry-content">
+        <p>{{ .Summary }}</p>
+    </div>
+    <footer class="entry-footer">
+        <time>{{ .Date.Format "January 2, 2006" }}</time>
+    </footer>
+    <a class="entry-link" href="{{ .Permalink }}"></a>
+</article>
+{{ end }}
+
+{{- end }}

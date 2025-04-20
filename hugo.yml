@@ -33,6 +33,8 @@ params:
   math: true
   title: Arcolaus' Blog
   ShowCodeCopyButtons: true
+  ShowTaxonomies: true
+  ShowCategories: true
   homeInfoParams:
     Title: Hi there 👋
     Content: >-
@@ -66,10 +68,9 @@ params:
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
-# taxonomies:
-#   archive: "archives
-#   category: "categories"
-#   tag: "tags"
+taxonomies:
+  category: "categories"
+  tag: "tags"
 
 menu:
   main:
@@ -77,6 +78,11 @@ menu:
       name: Archives
       url: /archives
       weight: 10
+    # 添加categories菜单项
+    - identifier: categories
+      name: Categories
+      url: /categories
+      weight: 20
     - identifier: tags
       name: Tags
       url: /tags
