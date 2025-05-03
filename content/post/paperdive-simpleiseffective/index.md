@@ -11,7 +11,7 @@ categories = [
 tags = [
     "RAG",
     "Retriever",
-    "DeepLearning"
+    "Deep Learning"
 ]
 +++
 ## Metadata
