@@ -1,7 +1,9 @@
 :root {
     --main-width: 900px;
-    /* 调整为您想要的宽度 */
+    --theme: rgb(243, 243, 243);
+    /* --entry: rgb(243, 243, 243); */
 }
+
 
 .main {
     max-width: 900px !important;
