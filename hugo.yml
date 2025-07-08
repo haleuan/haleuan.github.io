@@ -21,17 +21,17 @@ params:
   enableEmoji: true
   buildExpired: false
   pygmentsUseClasses: true
-  author: Arcolaus
+  author: HalEuan
   DateFormat: January 2, 2006
   defaultTheme: auto
   description: ExampleSite description
   env: production
   keywords:
     - Blog
-    - Arcolaus
+    - HalEuan
     - 郑皓月
   math: true
-  title: Arcolaus' Blog
+  title: HalEuan's Blog
   ShowCodeCopyButtons: true
   ShowTaxonomies: true
   ShowCategories: true
@@ -46,7 +46,7 @@ params:
       And one fine morning. So we beat on, boats against the current, borne back ceaselessly into the past.
   socialIcons:
     - name: github
-      url: https://github.com/Arcolaus
+      url: https://github.com/HalEuan
   assets:
     disableHLJS: true
     favicon: assets/jupiter_favicon/jupiter_planet_icon_32.png
