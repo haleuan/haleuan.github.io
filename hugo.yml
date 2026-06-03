@@ -1,6 +1,6 @@
 baseURL: https://haleuan.github.io/
 languageCode: zh-cn
-title: HalEuan's Blog
+title: Haleuan's Blog
 theme: PaperMod
 pageinate: 7
 
@@ -31,12 +31,12 @@ params:
     - HalEuan
     - 郑皓月
   math: true
-  title: HalEuan's Blog
+  title: Haleuan's Blog
   ShowCodeCopyButtons: true
   ShowTaxonomies: true
   ShowCategories: true
   homeInfoParams:
-    Title: This a HalEuan's Neverland
+    Title: This a Haleuan's Neverland
     Content: >-
       Gatsby believed in the green light, the orgastic future that year by
       year recedes before us. It eluded us then, but that's no matter--tomorrow
