@@ -44,7 +44,8 @@ jobs:
       - name: Install Dart Sass
         run: |
           sudo snap install dart-sass
-          sass --version
+          echo "/snap/bin" >> "$GITHUB_PATH"
+          /snap/bin/sass --version || /snap/bin/dart-sass --version
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -59,6 +60,7 @@ jobs:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
         run: |
+          export PATH="/snap/bin:$PATH"
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
