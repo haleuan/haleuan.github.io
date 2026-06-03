@@ -1,8 +1,15 @@
 baseURL: https://haleuan.github.io/
-languageCode: zh-cn
+locale: zh-cn
 title: Haleuan's Blog
 theme: PaperMod
-pageinate: 7
+paginate: 7
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 
 minify:
   disableXML: false
@@ -14,21 +21,14 @@ outputs:
     - RSS
     - JSON
 params:
-  enableInlineShortcodes: true
-  enableRobotsTXT: true
-  buildDrafts: false
-  buildFuture: false
-  enableEmoji: true
-  buildExpired: false
-  pygmentsUseClasses: true
-  author: HalEuan
+  author: Haleuan
   DateFormat: January 2, 2006
   defaultTheme: auto
   description: ExampleSite description
   env: production
   keywords:
     - Blog
-    - HalEuan
+    - Haleuan
     - 郑皓月
   math: true
   title: Haleuan's Blog
@@ -46,7 +46,7 @@ params:
       And one fine morning. So we beat on, boats against the current, borne back ceaselessly into the past.
   socialIcons:
     - name: github
-      url: https://github.com/HalEuan
+      url: https://github.com/Haleuan
   assets:
     disableHLJS: true
     favicon: assets/jupiter_favicon/jupiter_planet_icon_32.png
@@ -58,7 +58,7 @@ params:
     enabled: false
     title: ExampleSite
     imageWidth: 120
-    fuseOpts:
+  fuseOpts:
     isCaseSensitive: false
     shouldSort: true
     location: 0

@@ -1,5 +1,19 @@
-public
-.hugo_build.lock
-resources
+/public/
+/resources/
+/.hugo_build.lock
+/hugo_stats.json
+
+# OS / editor
 .DS_Store
-exampleSite
+Thumbs.db
+*.swp
+*~
+/.vscode/
+/.idea/
+
+# Node (only if you add a JS pipeline)
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

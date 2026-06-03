@@ -1,6 +1,6 @@
 ## 新增博文
 ```bash
-hugo new content content/post/${articleName_en}/index.md
+hugo new content post/${articleName_en}/index.md
 ```
 
 
@@ -32,14 +32,13 @@ vim themes/PaperMod/layouts/partials/templates/twitter_cards.html
 ### 方法 3: 更新 PaperMod 主题
 
 ```bash
-cd themes/PaperMod
-git pull
-cd ../..
+git submodule update --init --recursive
+git submodule update --remote --merge themes/PaperMod
 ```
 
 ### 方法 4: 在配置中忽略警告 (仅抑制警告，不解决错误)
 
-在 `config.yaml` 或 `config.toml` 中添加:
+在 `hugo.yml` 中添加:
 
 ```yaml
 ignoreLogs = ['warning-partial-superfluous-prefix']
@@ -78,9 +77,8 @@ cp themes/PaperMod/layouts/partials/templates/_funcs/get-page-images.html themes
 ### 方法3：更新 PaperMod 主题
 
 ```bash
-cd themes/PaperMod
-git pull
-cd ../..
+git submodule update --init --recursive
+git submodule update --remote --merge themes/PaperMod
 ```
 
 ### 方法4：在配置中忽略相关警告
