@@ -1,11 +1,11 @@
----
-title: "马尔可夫链与隐马尔可夫模型"
-date: 2026-06-03T18:50:00+08:00
-categories: ["Deep Learning"]
-tags: ["Machine Learning", "Algorithm", "Markov Chain", "HMM"]
-draft: false
-showToc: true
----
++++
+categories = ['深度学习']
+date = '2026-06-03T18:50:00+08:00'
+draft = false
+showToc = true
+tags = ['机器学习', '算法', '马尔可夫链', '隐马尔可夫模型']
+title = '马尔可夫链与隐马尔可夫模型'
++++
 
 ## 前言
 

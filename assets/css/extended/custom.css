@@ -1,14 +1,7 @@
 :root {
     --main-width: 900px;
+}
+
+[data-theme="light"] {
     --theme: rgb(243, 243, 243);
-    /* --entry: rgb(243, 243, 243); */
-}
-
-
-.main {
-    max-width: 900px !important;
-}
-
-.post-content {
-    max-width: 900px !important;
 }

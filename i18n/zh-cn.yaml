@@ -1,0 +1,11 @@
+# 这里是中文 (zh-cn) 的自定义翻译字典
+# PaperMod 主题会自动读取这里的翻译项以覆盖默认的英文词条。
+
+readTime:
+  other: "{{ .Count }} 分钟阅读"
+
+words:
+  other: "约 {{ .Count }} 字"
+
+search:
+  other: "搜索"

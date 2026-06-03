@@ -1,17 +1,11 @@
 +++
-title = 'SSH连接Windows11(终端连接，以及VSCode Remote-SSH连接)'
-date = 2024-12-02T15:37:01+08:00
-draft = true
+categories = ['工作流']
 comments = false
-slug = "SSH连接Windows11"
-categories = [
-    "Workflow"
-]
-tags = [
-	"Windows",
-	"SSH",
-	"VSCode"
-]
+date = '2024-12-02T15:37:01+08:00'
+draft = true
+slug = 'SSH连接Windows11'
+tags = ['Windows', 'SSH', 'VSCode']
+title = 'SSH连接Windows11(终端连接，以及VSCode Remote-SSH连接)'
 +++
 
 ## 环境描述

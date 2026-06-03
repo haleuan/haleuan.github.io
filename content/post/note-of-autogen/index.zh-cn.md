@@ -1,17 +1,12 @@
 +++
-title = 'AutoGen学习笔记'
-date = 2024-09-04T20:47:24+08:00
-description = "学习AutoGen的一些简单笔记和大致框架"
+categories = ['研究生科研记录']
+comments = false
+date = '2024-09-04T20:47:24+08:00'
+description = '学习AutoGen的一些简单笔记和大致框架'
 draft = false
 math = true
-comments = false
-categories = [
-	"MS Research Journey",
-]
-tags = [
-	"LLM",
-	"AutoGen"
-]
+tags = ['大模型', 'AutoGen']
+title = 'AutoGen学习笔记'
 +++
 
 ## AutoGen的安装

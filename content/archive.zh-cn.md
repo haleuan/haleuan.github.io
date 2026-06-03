@@ -1,6 +1,6 @@
 +++
 layout = 'archives'
 summary = 'archives'
-title = 'Archive'
-url = '/archives'
+title = '归档'
+url = '/zh-cn/archives'
 +++

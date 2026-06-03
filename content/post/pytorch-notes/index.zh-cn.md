@@ -1,11 +1,11 @@
----
-title: "PyTorch 核心概念与踩坑记录"
-date: 2026-06-03T18:50:00+08:00
-categories: ["Deep Learning"]
-tags: ["PyTorch", "Machine Learning", "Python"]
-draft: false
-showToc: true
----
++++
+categories = ['深度学习']
+date = '2026-06-03T18:50:00+08:00'
+draft = false
+showToc = true
+tags = ['PyTorch', '机器学习', 'Python']
+title = 'PyTorch 核心概念与踩坑记录'
++++
 
 ## Quickstart: Creating Models
 

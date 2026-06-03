@@ -1,0 +1,11 @@
+# This is the English custom translation dictionary.
+# PaperMod will read these to override any default values.
+
+readTime:
+  other: "{{ .Count }} min read"
+
+words:
+  other: "{{ .Count }} words"
+
+search:
+  other: "Search"

@@ -1,20 +1,12 @@
----
-title: "KL Divergence and Cross Entropy"
-date: 2025-05-03T15:59:21+08:00
-draft: false
-slug: "KL散度和交叉熵损失函数"
-ShowToc : true
-categories : [
-    "MS Research Journey"
-]
-
-tags : [
-    "KL Divergence",
-    "Cross Entropy",
-    "Deep Learning",
-    "Machine Learning"
-]
----
++++
+ShowToc = true
+categories = ['MS Research Journey']
+date = '2025-05-03T15:59:21+08:00'
+draft = false
+slug = 'KL散度和交叉熵损失函数'
+tags = ['KL Divergence', 'Cross Entropy', 'Deep Learning', 'Machine Learning']
+title = 'KL Divergence and Cross Entropy'
++++
 
 ## KL Divergence (Kullback-Leibler Divergence, KLD)
 

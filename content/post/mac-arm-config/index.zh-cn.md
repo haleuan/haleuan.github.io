@@ -1,21 +1,14 @@
 +++
-title = "MacBook Silicon Configuraion"
-description = "记录一下MacBook的一些环境配置"
-date = 2024-07-29
-slug = "macbook-silicon-configuration"
-readingTime = true
+categories = ['工作流', '技术折腾']
 comments = false
+date = 2024-07-29
+description = '记录一下MacBook的一些环境配置'
 draft = true
-categories = [
-    "Workflow",
-    "Tech"
-]
-tags = [
-	"OSX",
-	"ZSH",
-	"Homebrew"
-]
-image = "screenshot_1.png"
+image = 'screenshot_1.png'
+readingTime = true
+slug = 'macbook-silicon-configuration'
+tags = ['OSX', 'ZSH', 'Homebrew']
+title = 'MacBook Silicon Configuraion'
 +++
 
 ## 安装APP
