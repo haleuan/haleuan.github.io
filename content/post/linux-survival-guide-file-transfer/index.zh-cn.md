@@ -1,6 +1,6 @@
 +++
 title = 'Linux 生存指南：文件传输与进度监控'
-date = 2026-06-03T20:00:00+08:00
+date = "2025-08-26T20:00:00+08:00"
 draft = false
 comments = false
 ShowToc = true
