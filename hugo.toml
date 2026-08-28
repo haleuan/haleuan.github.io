@@ -1,5 +1,5 @@
 baseURL = "https://haleuan.github.io/"
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
 hasCJKLanguage = true
 theme = "PaperMod"
@@ -77,25 +77,25 @@ Content = '''
 [[languages.zh-cn.menu.main]]
 identifier = "archive"
 name = "归档"
-url = "/zh-cn/archives"
+url = "/archives"
 weight = 10
 
 [[languages.zh-cn.menu.main]]
 identifier = "categories"
 name = "分类"
-url = "/zh-cn/categories"
+url = "/categories"
 weight = 20
 
 [[languages.zh-cn.menu.main]]
 identifier = "tags"
 name = "标签"
-url = "/zh-cn/tags"
+url = "/tags"
 weight = 30
 
 [[languages.zh-cn.menu.main]]
 identifier = "search"
 name = "搜索"
-url = "/zh-cn/search"
+url = "/search"
 weight = 40
 
 [languages.en]
