@@ -154,3 +154,9 @@ inline = [
   ['\(', '\)'],
   ['$', '$']
 ]
+
+# Use PaperMod's head partial so its automatic theme initialization is loaded.
+[[module.mounts]]
+source = "layouts"
+target = "layouts"
+files = ["! partials/head.html"]
