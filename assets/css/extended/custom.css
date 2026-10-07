@@ -1,6 +1,6 @@
-:root {
+/* :root {
     --main-width: 900px;
-}
+} */
 
 [data-theme="light"] {
     --theme: rgb(243, 243, 243);
