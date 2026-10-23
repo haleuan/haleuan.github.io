@@ -1,7 +1,7 @@
-<!-- +++
++++
 title = 'Python 中的装饰器浅谈'
 date = '2026-10-23T21:24:03+08:00'
-draft = true
+draft = false
 categories = []
 tags = []
 
@@ -55,7 +55,7 @@ UseHugoToc = true
 # Text = 'Suggest Changes'
 # appendFilePath = true
 # disabled = false
-+++ -->
++++
 
 
 ## 基础用法
