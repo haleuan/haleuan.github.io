@@ -8,7 +8,6 @@ categories = ['技术折腾', 'Linux']
 tags = ['Linux', '命令行', 'Vim', 'Nano', 'Tmux', '文件系统', 'rsync', '网络', 'nmcli', 'Netplan', 'Crontab', 'systemd', '后台服务']
 +++
 
-这篇文章汇总 Linux 日常使用和服务器维护中最常用的几类工具，按“终端操作、文件传输、网络配置、进程与服务”组织。命令可以直接作为速查表使用；涉及网卡名、路径、用户名和密码的示例，请按实际环境替换。
 
 ## 终端工具：Vim、Nano 与 Tmux
 

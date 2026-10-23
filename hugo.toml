@@ -36,7 +36,6 @@ name = "github"
 url = "https://github.com/Haleuan"
 
 [params.assets]
-disableHLJS = true
 favicon = "assets/jupiter_favicon/jupiter_planet_icon_32.png"
 favicon16x16 = "assets/jupiter_favicon/jupiter_planet_icon_32.png"
 favicon32x32 = "assets/jupiter_favicon/jupiter_planet_icon_32.png"
