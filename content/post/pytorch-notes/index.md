@@ -205,3 +205,5 @@ Although masking is a **reliable way** to suppress padding, it should not be use
 2. **Hardware and library support limits**: Some acceleration libraries (such as native cuDNN convolutions) do not support ragged or masked inputs. Padding must be applied before unified computation, and masking can only be used as post-processing.
 3. **Risk of a zero denominator**: If an entire batch is padding ($\sum m_j = 0$), calculating the mean loss causes division by zero. Ensure that each batch has at least one valid sample in the sampler or collate function.
 4. **Code complexity and debugging cost**: The same mask must be used consistently in multiple places (`collate_fn`, `loss`, `attention`, and `Pooling`). Missing it in one place can cause subtle bugs.
+
+> **Translation note:** This English version was translated with the assistance of an LLM.

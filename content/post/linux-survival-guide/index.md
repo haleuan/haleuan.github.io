@@ -860,3 +860,5 @@ sudo systemctl mask [服务名称]
 ```
 This creates a symbolic link to `/dev/null` under `/etc/systemd/system/`. Use `unmask` to remove the mask.
 - **Mount points:** `systemd` can also manage filesystem mount points; use `systemctl --type=mount` to view them.
+
+> **Translation note:** This English version was translated with the assistance of an LLM.

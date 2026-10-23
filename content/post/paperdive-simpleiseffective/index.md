@@ -79,3 +79,4 @@ The paper says the MLP is trained on $[z_q\|z_h\|z_r\|z_t\|z_\tau]$. The query i
 - $z_r$: looked up in a fixed table.
 - $z_\tau$: computed with DDE.
 
+> **Translation note:** This English version was translated with the assistance of an LLM.

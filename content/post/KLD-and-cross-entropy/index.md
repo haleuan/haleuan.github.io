@@ -68,3 +68,5 @@ Here, $C$ is the correct class.
 
 However, note that in practice, we don’t compute the loss for a single sample, but for a **batch** of samples. Therefore, the loss function is typically calculated as the average cross entropy over the batch:  
 $$\text{batch\_loss} = -\frac{1}{N}\sum\limits_{i=1}^N\log\big(Q(k_i)\big)$$
+
+> **Translation note:** This English version was translated with the assistance of an LLM.

@@ -54,3 +54,5 @@ I also recommend changing `python.analysis.extraPaths` so that code completion w
 ```
 
 Similarly, to make Jupyter in VS Code search the same package path, search settings for `jupyter.notebookFileRoot`, set it to `${workspaceFolder}`, and **restart VS Code**.
+
+> **Translation note:** This English version was translated with the assistance of an LLM.

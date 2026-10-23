@@ -184,3 +184,5 @@ def repeat(times):
 This avoids `nonlocal`, though the code is a little less direct. Choose based on personal and team preference: `nonlocal` is more straightforward, while a mutable container is a little more functional because it avoids rebinding a variable.
 
 **One easy-to-miss point:** in this example, `times` changes each time the decorated function is called, so **the decorator is stateful**. If multiple threads call the same decorated function at once, a race condition can occur because updates to `times` are not thread-safe. This is why stateful decorators are often implemented as classes in practice: storing state in `self` makes it easier to protect with a lock than storing it in a closure variable.
+
+> **Translation note:** This English version was translated with the assistance of an LLM.

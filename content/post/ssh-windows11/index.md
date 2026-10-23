@@ -61,3 +61,5 @@ See the [official documentation](https://learn.microsoft.com/zh-cn/windows-serve
 Here is a frustrating gotcha: the terminal connects to Windows successfully, but VS Code's SSH connection fails. The details show that it has connected, but installing the required support components on Windows fails.
 
 The cause was a permissions issue. I had Huorong antivirus installed on Windows, and **it blocked some PowerShell installation tasks**. On the first connection, temporarily disable Huorong or click **Allow** in its notification. That resolves the problem.
+
+> **Translation note:** This English version was translated with the assistance of an LLM.

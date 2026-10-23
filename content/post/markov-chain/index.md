@@ -135,3 +135,4 @@ This figure illustrates two core ideas in a hidden Markov model. The first is **
 - [MCMC (II): Markov chains](https://www.cnblogs.com/pinard/p/6632399.html)
 - [What is a Hidden Markov Model?](https://www.zhihu.com/question/19633865/answer/1635328825)
 
+> **Translation note:** This English version was translated with the assistance of an LLM.

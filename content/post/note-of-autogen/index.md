@@ -292,3 +292,5 @@ AutoGen provides components for conversations among multiple agents.
 	- Provide constraints to limit which agent speaks next.
 	- Pass in a function to customize the next agent. This feature can be used to build a **StateFlow** that defines a workflow.
 4. Nested Chat: Package a workflow into an agent and reuse that agent in other workflows.
+
+> **Translation note:** This English version was translated with the assistance of an LLM.

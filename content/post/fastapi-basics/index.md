@@ -103,3 +103,5 @@ content-length: 73
 	}
 }
 ```
+
+> **Translation note:** This English version was translated with the assistance of an LLM.

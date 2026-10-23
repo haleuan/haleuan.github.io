@@ -165,3 +165,4 @@ Homebrew can only be installed under `/opt/homebrew`. See the [release note](htt
 - Install a formula: `brew install <formula-name>`
 - Install a Cask: `brew install --cask <cask-name>`
 
+> **Translation note:** This English version was translated with the assistance of an LLM.
